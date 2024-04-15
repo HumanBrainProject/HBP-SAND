@@ -3,8 +3,7 @@
   "_extends": "/core/schemas/products/researchProductVersion.schema.tpl.json",
   "required": [
     "coordinateSpace",
-    "hasTerminology",
-    "license"
+    "hasTerminology"
   ],
   "properties": {
     "abbreviation": {
