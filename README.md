@@ -27,6 +27,6 @@ If you want to contribute please follow our :arrow_right: [**contribution guidel
 [contributors-url]: https://github.com/openMetadataInitiative/openMINDS_SANDS/graphs/contributors
 [contributors-shield]: https://img.shields.io/github/contributors/openMetadataInitiative/openMINDS_SANDS
 [docu-url]: https://openminds-documentation.readthedocs.io
-[docu-sands-url]: https://openminds-documentation.readthedocs.io/en/v3.0/specifications/SANDS.html
-[license-url]: https://raw.githubusercontent.com/openMetadataInitiative/openMINDS_SANDS/v3/LICENSE
+[docu-sands-url]: https://openminds-documentation.readthedocs.io/en/v3.0/schema_specifications/SANDS.html
+[license-url]: https://raw.githubusercontent.com/openMetadataInitiative/openMINDS_SANDS/v3/LICENSE.txt
 [license-shield]: https://img.shields.io/github/license/openMetadataInitiative/openMINDS_SANDS
