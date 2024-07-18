@@ -36,6 +36,12 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-fsaverage_Area-CoS1_PM-v7.2"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.1-Colin27_Area-CoS1_PM-v7.2"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.1-MNI152_Area-CoS1_PM-v7.2"
     }
   ],
   "lookupLabel": "JBA_Area-CoS1",

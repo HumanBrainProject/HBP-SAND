@@ -14,20 +14,17 @@
   ],
   "hasVersion": [
     {
-      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-BigBrain_Area-25.25a_PM-v8.2"
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.1-Colin27_Area-25.25a_PM-v20.1"
     },
     {
-      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-Colin27_Area-25.25a_PM-v20.1"
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.1-MNI152_Area-25.25a_PM-v20.1"
     },
     {
-      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-MNI152_Area-25.25a_PM-v20.1"
-    },
-    {
-      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-fsaverage_Area-25.25a_PM-v20.1"
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.1-fsaverage_Area-25.25a_PM-v20.1"
     }
   ],
-  "lookupLabel": "JBA_Area-25.25a",
-  "name": "Area 25.25a (sACC",
+  "lookupLabel": "Area-25.25a",
+  "name": "Area 25.25a (sACC)",
   "ontologyIdentifier": null,
   "relatedUBERONTerm": null
 }

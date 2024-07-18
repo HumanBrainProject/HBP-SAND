@@ -66,6 +66,12 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-fsaverage_Area-4p_PM-v13.1"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.1-Colin27_Area-4p_PM-v14.0"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.1-MNI152_Area-4p_PM-v14.0"
     }
   ],
   "lookupLabel": "JBA_Area-4p",

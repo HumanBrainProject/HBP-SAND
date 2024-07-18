@@ -1,0 +1,30 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Midbrain-NRp",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": null,
+  "definition": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_nucleusRuber"
+    }
+  ],
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.1-Colin27_Midbrain-NRp_PM-v2.0"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.1-MNI152_Midbrain-NRp_PM-v2.0"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.1-fsaverage_Midbrain-NRp_PM-v2.0"
+    }
+  ],
+  "lookupLabel": "Midbrain-NRp",
+  "name": "NRp (Midbrain, Nucleus Ruber, parvocellular part)",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

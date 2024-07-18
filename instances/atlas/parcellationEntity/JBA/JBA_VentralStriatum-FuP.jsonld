@@ -1,0 +1,30 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_VentralStriatum-FuP",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": null,
+  "definition": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_ventralStriatum"
+    }
+  ],
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.1-Colin27_VentralStriatum-FuP_PM-v5.0"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.1-MNI152_VentralStriatum-FuP_PM-v5.0"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.1-fsaverage_VentralStriatum-FuP_PM-v5.0"
+    }
+  ],
+  "lookupLabel": "VentralStriatum-FuP",
+  "name": "FuP (Ventral Striatum, Fundus of Putamen)",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

@@ -1,0 +1,30 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Thalamus-CM",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": null,
+  "definition": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_intralaminarGroup"
+    }
+  ],
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.1-Colin27_Thalamus-CM_PM-v9.0"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.1-MNI152_Thalamus-CM_PM-v9.0"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.1-fsaverage_Thalamus-CM_PM-v9.0"
+    }
+  ],
+  "lookupLabel": "Thalamus-CM",
+  "name": "CM (Thalamus, centromedian Nucleus)",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

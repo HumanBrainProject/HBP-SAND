@@ -63,6 +63,12 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-fsaverage_Area-Id5_PM-v5.1"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.1-Colin27_Area-Id5_PM-v5.1"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.1-MNI152_Area-Id5_PM-v5.1"
     }
   ],
   "lookupLabel": "JBA_Area-Id5",
