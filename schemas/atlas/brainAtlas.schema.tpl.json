@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/sands/BrainAtlas",
+  "_type": "/sands/BrainAtlas",
   "_extends": "/core/schemas/products/researchProduct.schema.tpl.json",
   "required": [
     "author",
@@ -22,15 +22,15 @@
     "digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this research product. Note that this digital identifier will be used to reference all attached research product versions.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DOI",
-        "https://openminds.ebrains.eu/core/ISBN",
-        "https://openminds.ebrains.eu/core/RRID"
+        "/core/DOI",
+        "/core/ISBN",
+        "/core/RRID"
       ]
     },    
     "hasTerminology": {
       "_instruction": "Enter the parcellation terminology of this brain atlas.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/sands/ParcellationTerminology"
+        "/sands/ParcellationTerminology"
       ]
     },
     "hasVersion": {
@@ -39,7 +39,7 @@
       "uniqueItems": true,
       "_instruction": "Add versions of this brain atlas.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
+        "/sands/BrainAtlasVersion"
       ]
     },
     "ontologyIdentifier": {
@@ -52,7 +52,7 @@
     "usedSpecies": {
       "_instruction": "Add the species that was used for the creation of this brain atlas.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Species"
+        "/controlledTerms/Species"
       ]
     }
   }

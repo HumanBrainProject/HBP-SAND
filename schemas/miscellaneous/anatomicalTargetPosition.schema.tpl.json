@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/sands/AnatomicalTargetPosition",
+  "_type": "/sands/AnatomicalTargetPosition",
   "required": [
     "anatomicalTarget",
     "targetIdentificationType"
@@ -24,13 +24,13 @@
       "uniqueItems": true,
       "_instruction": "Add all coordinate points that describe the spatial location of the anatomical target structure(s).",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/sands/CoordinatePoint"
+        "/sands/CoordinatePoint"
       ]
     },
     "targetIdentificationType": {
       "_instruction": "Add the target identification type that best describes how the this anatomical target position was identified.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/AnatomicalIdentificationType"
+        "/controlledTerms/AnatomicalIdentificationType"
       ]
     }
   }

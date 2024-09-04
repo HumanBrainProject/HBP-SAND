@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+  "_type": "/sands/ParcellationEntityVersion",
   "_categories": [
     "anatomicalLocation",
     "studyTarget"
@@ -36,7 +36,7 @@
       "uniqueItems": true,
       "_instruction": "Add all atlas annotations which define this parcellation entity version.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/sands/AtlasAnnotation"
+        "/sands/AtlasAnnotation"
       ]
     },    
     "hasParent": {      
@@ -45,8 +45,8 @@
       "uniqueItems": true,
       "_instruction": "Add all anatomical parent structures (or version of the structures) for this parcellation entity as defined within corresponding brain atlas version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/ParcellationEntity",       
-        "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
+        "/sands/ParcellationEntity",
+        "/sands/ParcellationEntityVersion"
       ]
     },
     "lookupLabel": {
@@ -75,8 +75,8 @@
       "uniqueItems": true,
       "_instruction": "Add all relations (qualitative or quantitative) of this parcellation entity version to other anatomical entities.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/sands/QualitativeRelationAssessment",
-        "https://openminds.ebrains.eu/sands/QuantitativeRelationAssessment"
+        "/sands/QualitativeRelationAssessment",
+        "/sands/QuantitativeRelationAssessment"
       ]
     },
     "versionIdentifier": {

@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
+  "_type": "/sands/ViewerSpecification",
   "required": [
     "anchorPoint"
   ],
@@ -14,13 +14,13 @@
       "maxItems": 3,
       "_instruction": "Enter the coordinates of the anchor point that a viewer should use. Either state the anchor point of the annotation again or state another coordinate point.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "/core/QuantitativeValue"
       ]
     },
     "cameraPosition": {
       "_instruction": "Enter the camera position that a viewer should use.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/sands/CoordinatePoint"
+        "/sands/CoordinatePoint"
       ]
     },
     "preferredDisplayColor": {  

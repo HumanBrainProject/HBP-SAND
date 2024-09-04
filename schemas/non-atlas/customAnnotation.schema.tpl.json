@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/sands/CustomAnnotation",
+  "_type": "/sands/CustomAnnotation",
   "_extends": "atlas/annotation.schema.tpl.json",
   "required": [
     "coordinateSpace"
@@ -8,15 +8,15 @@
     "coordinateSpace": {
       "_instruction": "Add the coordinate space for this custom annotation.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
-        "https://openminds.ebrains.eu/sands/CustomCoordinateSpace"
+        "/sands/CommonCoordinateSpaceVersion",
+        "/sands/CustomCoordinateSpace"
       ]
     },
     "specification": {
       "_instruction": "Add the non-parametric or parametric specification of this annotation.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/File",
-        "https://openminds.ebrains.eu/core/PropertyValueList"
+        "/core/File",
+        "/core/PropertyValueList"
       ]
     }
   }

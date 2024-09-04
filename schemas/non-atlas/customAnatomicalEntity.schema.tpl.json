@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/sands/CustomAnatomicalEntity",
+  "_type": "/sands/CustomAnatomicalEntity",
   "_categories": [
     "anatomicalLocation",
     "studyTarget"
@@ -14,7 +14,7 @@
       "uniqueItems": true,
       "_instruction": "Add all custom annotations which define this custom anatomical entity.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/sands/CustomAnnotation"
+        "/sands/CustomAnnotation"
       ]
     },
     "name": {
@@ -24,8 +24,8 @@
     "relatedUBERONTerm":{
       "_instruction": "Add the related anatomical entity as defined by the UBERON ontology.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Organ",
-        "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation"
+        "/controlledTerms/Organ",
+        "/controlledTerms/UBERONParcellation"
       ]
     },
     "relationAssessment": {
@@ -34,8 +34,8 @@
       "uniqueItems": true,
       "_instruction": "Add all relations (qualitative or quantitative) of this custom anatomical entity to other anatomical entities.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/sands/QualitativeRelationAssessment",
-        "https://openminds.ebrains.eu/sands/QuantitativeRelationAssessment"
+        "/sands/QualitativeRelationAssessment",
+        "/sands/QuantitativeRelationAssessment"
       ]
     }
   }
