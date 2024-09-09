@@ -1,5 +1,5 @@
 {
-  "_type": "/sands/BrainAtlas",
+  "_type": "BrainAtlas",
   "_extends": "/core/schemas/products/researchProduct.schema.tpl.json",
   "required": [
     "author",
@@ -22,15 +22,15 @@
     "digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this research product. Note that this digital identifier will be used to reference all attached research product versions.",
       "_linkedTypes": [
-        "/core/DOI",
-        "/core/ISBN",
-        "/core/RRID"
+        "DOI",
+        "ISBN",
+        "RRID"
       ]
     },    
     "hasTerminology": {
       "_instruction": "Enter the parcellation terminology of this brain atlas.",
       "_embeddedTypes": [
-        "/sands/ParcellationTerminology"
+        "ParcellationTerminology"
       ]
     },
     "hasVersion": {
@@ -39,7 +39,7 @@
       "uniqueItems": true,
       "_instruction": "Add versions of this brain atlas.",
       "_linkedTypes": [
-        "/sands/BrainAtlasVersion"
+        "BrainAtlasVersion"
       ]
     },
     "ontologyIdentifier": {
@@ -52,7 +52,7 @@
     "usedSpecies": {
       "_instruction": "Add the species that was used for the creation of this brain atlas.",
       "_linkedTypes": [
-        "/controlledTerms/Species"
+        "Species"
       ]
     }
   }

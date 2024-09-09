@@ -1,5 +1,5 @@
 {
-  "_type": "/sands/CustomAnnotation",
+  "_type": "CustomAnnotation",
   "_extends": "atlas/annotation.schema.tpl.json",
   "required": [
     "coordinateSpace"
@@ -8,15 +8,15 @@
     "coordinateSpace": {
       "_instruction": "Add the coordinate space for this custom annotation.",
       "_linkedTypes": [
-        "/sands/CommonCoordinateSpaceVersion",
-        "/sands/CustomCoordinateSpace"
+        "CommonCoordinateSpaceVersion",
+        "CustomCoordinateSpace"
       ]
     },
     "specification": {
       "_instruction": "Add the non-parametric or parametric specification of this annotation.",
       "_linkedTypes": [
-        "/core/File",
-        "/core/PropertyValueList"
+        "File",
+        "PropertyValueList"
       ]
     }
   }

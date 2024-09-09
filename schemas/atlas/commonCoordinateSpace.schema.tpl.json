@@ -1,5 +1,5 @@
 {
-  "_type": "/sands/CommonCoordinateSpace",
+  "_type": "CommonCoordinateSpace",
   "_extends": "/core/schemas/products/researchProduct.schema.tpl.json",
   "_categories": [
     "coordinateSpace"
@@ -24,9 +24,9 @@
     "digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this research product. Note that this digital identifier will be used to reference all attached research product versions.",
       "_linkedTypes": [
-        "/core/DOI",
-        "/core/ISBN",
-        "/core/RRID"
+        "DOI",
+        "ISBN",
+        "RRID"
       ]
     },
     "hasVersion": {
@@ -35,7 +35,7 @@
       "uniqueItems": true,
       "_instruction": "Add all versions of this common coordinate space.",
       "_linkedTypes": [
-        "/sands/CommonCoordinateSpaceVersion"
+        "CommonCoordinateSpaceVersion"
       ]
     },
     "ontologyIdentifier": {
@@ -53,7 +53,7 @@
     "usedSpecies": {
       "_instruction": "Add the species that was used for the creation of this common coordinate space.",
       "_linkedTypes": [
-        "/controlledTerms/Species"
+        "Species"
       ]
     }
   }

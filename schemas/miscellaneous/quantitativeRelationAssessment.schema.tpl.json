@@ -1,5 +1,5 @@
 {
-  "_type": "/sands/QuantitativeRelationAssessment",
+  "_type": "QuantitativeRelationAssessment",
   "required": [
     "inRelationTo",
     "quantitativeOverlap"
@@ -8,20 +8,20 @@
     "criteria": {
       "_instruction": "Add the protocol execution defining the criteria that were applied to determine this relation.",
       "_linkedTypes": [
-        "/core/ProtocolExecution"
+        "ProtocolExecution"
       ]
     },
     "inRelationTo": {
       "_instruction": "Add the parcellation entity version to which the relation is described.",
       "_linkedTypes": [
-        "/sands/ParcellationEntityVersion"
+        "ParcellationEntityVersion"
       ]
     },    
     "quantitativeOverlap": {
       "_instruction": "Enter the quantitative overlap between the two anatomical entities, preferably expressed in percentage.",
       "_embeddedTypes": [
-        "/core/QuantitativeValue",
-        "/core/QuantitativeValueRange"
+        "QuantitativeValue",
+        "QuantitativeValueRange"
       ]
     }
   }

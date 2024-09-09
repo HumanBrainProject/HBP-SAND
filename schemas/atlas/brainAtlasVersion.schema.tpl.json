@@ -1,5 +1,5 @@
 {
-  "_type": "/sands/BrainAtlasVersion",
+  "_type": "BrainAtlasVersion",
   "_extends": "/core/schemas/products/researchProductVersion.schema.tpl.json",
   "required": [
     "coordinateSpace",
@@ -23,21 +23,21 @@
     "coordinateSpace": {
       "_instruction": "Add the specific common coordinate space in which this brain atlas version exists.",
       "_linkedTypes": [
-        "/sands/CommonCoordinateSpaceVersion"
+        "CommonCoordinateSpaceVersion"
       ]
     },
     "digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this research product version.",
       "_linkedTypes": [
-        "/core/DOI",
-        "/core/ISBN",
-        "/core/RRID"
+        "DOI",
+        "ISBN",
+        "RRID"
       ]
     },
     "hasTerminology": {
       "_instruction": "Enter the specific parcellation terminology of this brain atlas version.",
       "_embeddedTypes": [
-        "/sands/ParcellationTerminologyVersion"
+        "ParcellationTerminologyVersion"
       ]
     },
     "isAlternativeVersionOf": {
@@ -46,19 +46,19 @@
       "uniqueItems": true,
       "_instruction": "Add all brain atlas versions that can be used alternatively to this brain atlas version.",
       "_linkedTypes": [
-        "/sands/BrainAtlasVersion"
+        "BrainAtlasVersion"
       ]
     },
     "isNewVersionOf": {
       "_instruction": "Add the brain atlas version preceding this brain atlas version.",
       "_linkedTypes": [
-        "/sands/BrainAtlasVersion"
+        "BrainAtlasVersion"
       ]
     },    
     "license": {
       "_instruction": "Add the license of this brain atlas version.",
       "_linkedTypes": [
-        "/core/License"
+        "License"
       ]
     },
     "majorVersionIdentifier": {
@@ -75,7 +75,7 @@
     "type": {
       "_instruction": "Add the type of this brain atlas version.",
       "_linkedTypes": [
-        "/controlledTerms/AtlasType"
+        "AtlasType"
       ]
     },   
     "usedSpecimen": {
@@ -84,10 +84,10 @@
       "uniqueItems": true,
       "_instruction": "Add the specimen that was used for the creation of this brain atlas version.",
       "_linkedTypes": [
-        "/core/Subject",
-        "/core/SubjectGroup",
-        "/core/TissueSample",
-        "/core/TissueSampleCollection"
+        "Subject",
+        "SubjectGroup",
+        "TissueSample",
+        "TissueSampleCollection"
       ]
     }
   }
