@@ -1,5 +1,5 @@
 {
-  "_type": "ParcellationEntity",
+  "_type": "sands:ParcellationEntity",
   "_categories": [
     "anatomicalLocation",
     "studyTarget"
@@ -31,7 +31,7 @@
       "uniqueItems": true,
       "_instruction": "Add all anatomical parent structures for this parcellation entity as defined within the corresponding brain atlas.",
       "_linkedTypes": [
-        "ParcellationEntity"
+        "sands:ParcellationEntity"
       ]
     },
     "hasVersion": {
@@ -40,7 +40,7 @@
       "uniqueItems": true,
       "_instruction": "Add all versions of this parcellation entity.",
       "_linkedTypes": [
-        "ParcellationEntityVersion"
+        "sands:ParcellationEntityVersion"
       ]
     },
     "lookupLabel": {
@@ -66,8 +66,8 @@
     "relatedUBERONTerm":{
       "_instruction": "Add the related anatomical entity as defined by the UBERON ontology.",
       "_linkedTypes": [
-        "Organ",
-        "UBERONParcellation"
+        "controlledTerms:Organ",
+        "controlledTerms:UBERONParcellation"
       ]
     }
   }

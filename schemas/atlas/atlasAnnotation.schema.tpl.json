@@ -1,11 +1,11 @@
 {
-  "_type": "AtlasAnnotation",
+  "_type": "sands:AtlasAnnotation",
   "_extends": "atlas/annotation.schema.tpl.json",
   "properties": {
     "specification": {
       "_instruction": "Add the non-parametric specification of this annotation.",
       "_linkedTypes": [
-        "File"
+        "core:File"
       ]
     }
   }
