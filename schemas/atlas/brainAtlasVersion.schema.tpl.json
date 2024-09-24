@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
+  "_type": "sands:BrainAtlasVersion",
   "_extends": "/core/schemas/products/researchProductVersion.schema.tpl.json",
   "required": [
     "coordinateSpace",
@@ -23,21 +23,21 @@
     "coordinateSpace": {
       "_instruction": "Add the specific common coordinate space in which this brain atlas version exists.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+        "sands:CommonCoordinateSpaceVersion"
       ]
     },
     "digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this research product version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DOI",
-        "https://openminds.ebrains.eu/core/ISBN",
-        "https://openminds.ebrains.eu/core/RRID"
+        "core:DOI",
+        "core:ISBN",
+        "core:RRID"
       ]
     },
     "hasTerminology": {
       "_instruction": "Enter the specific parcellation terminology of this brain atlas version.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/sands/ParcellationTerminologyVersion"
+        "sands:ParcellationTerminologyVersion"
       ]
     },
     "isAlternativeVersionOf": {
@@ -46,19 +46,19 @@
       "uniqueItems": true,
       "_instruction": "Add all brain atlas versions that can be used alternatively to this brain atlas version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
+        "sands:BrainAtlasVersion"
       ]
     },
     "isNewVersionOf": {
       "_instruction": "Add the brain atlas version preceding this brain atlas version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
+        "sands:BrainAtlasVersion"
       ]
     },    
     "license": {
       "_instruction": "Add the license of this brain atlas version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/License"
+        "core:License"
       ]
     },
     "majorVersionIdentifier": {
@@ -75,7 +75,7 @@
     "type": {
       "_instruction": "Add the type of this brain atlas version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/AtlasType"
+        "controlledTerms:AtlasType"
       ]
     },   
     "usedSpecimen": {
@@ -84,10 +84,10 @@
       "uniqueItems": true,
       "_instruction": "Add the specimen that was used for the creation of this brain atlas version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Subject",
-        "https://openminds.ebrains.eu/core/SubjectGroup",
-        "https://openminds.ebrains.eu/core/TissueSample",
-        "https://openminds.ebrains.eu/core/TissueSampleCollection"
+        "core:Subject",
+        "core:SubjectGroup",
+        "core:TissueSample",
+        "core:TissueSampleCollection"
       ]
     }
   }

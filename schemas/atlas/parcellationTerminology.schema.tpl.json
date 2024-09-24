@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/sands/ParcellationTerminology",
+  "_type": "sands:ParcellationTerminology",
   "required": [
     "hasEntity"
   ],
@@ -10,7 +10,7 @@
       "uniqueItems": true,
       "_instruction": "Add the location of all files in which this parcellation terminology is stored.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/File"
+        "core:File"
       ]
     },
     "hasEntity": {
@@ -19,7 +19,7 @@
       "uniqueItems": true,
       "_instruction": "Add all parcellation entities which belong to this parcellation terminology.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/ParcellationEntity"
+        "sands:ParcellationEntity"
       ]
     },    
     "ontologyIdentifier": {

@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/sands/Rectangle",
+  "_type": "sands:Rectangle",
   "_categories": [
     "mathematicalShapes"
   ],
@@ -11,13 +11,13 @@
     "length": {
       "_instruction": "Enter the length of this rectangle.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ]
     },
     "width": {
       "_instruction": "Enter the width of this rectangle.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ]
     }
   }
