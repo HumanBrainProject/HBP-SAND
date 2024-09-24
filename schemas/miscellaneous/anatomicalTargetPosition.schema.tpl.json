@@ -1,5 +1,5 @@
 {
-  "_type": "SANDS:AnatomicalTargetPosition",
+  "_type": "sands:AnatomicalTargetPosition",
   "required": [
     "anatomicalTarget",
     "targetIdentificationType"
@@ -24,7 +24,7 @@
       "uniqueItems": true,
       "_instruction": "Add all coordinate points that describe the spatial location of the anatomical target structure(s).",
       "_embeddedTypes": [
-        "SANDS:CoordinatePoint"
+        "sands:CoordinatePoint"
       ]
     },
     "targetIdentificationType": {

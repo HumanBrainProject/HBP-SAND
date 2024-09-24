@@ -1,5 +1,5 @@
 {
-  "_type": "SANDS:CustomCoordinateSpace",
+  "_type": "sands:CustomCoordinateSpace",
   "_categories": [
     "coordinateSpace"
   ],

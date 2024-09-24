@@ -1,5 +1,5 @@
 {
-  "_type": "SANDS:CoordinatePoint",
+  "_type": "sands:CoordinatePoint",
   "required": [
     "coordinates",
     "coordinateSpace"
@@ -17,8 +17,8 @@
     "coordinateSpace": {
       "_instruction": "Add the coordinate space in which this coordinate point exists in.",
       "_linkedTypes": [
-        "SANDS:CommonCoordinateSpaceVersion",
-        "SANDS:CustomCoordinateSpace"
+        "sands:CommonCoordinateSpaceVersion",
+        "sands:CustomCoordinateSpace"
       ]
     }
   }

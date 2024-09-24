@@ -1,5 +1,5 @@
 {
-  "_type": "SANDS:AtlasAnnotation",
+  "_type": "sands:AtlasAnnotation",
   "_extends": "atlas/annotation.schema.tpl.json",
   "properties": {
     "specification": {

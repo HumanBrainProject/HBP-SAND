@@ -58,7 +58,7 @@
     "preferredVisualization": {
       "_instruction": "Add the preferred viewer specification to visualize this annotation.",
       "_embeddedTypes": [
-        "SANDS:ViewerSpecification"
+        "sands:ViewerSpecification"
       ]
     },
     "type": {

@@ -1,5 +1,5 @@
 {
-  "_type": "SANDS:ParcellationTerminology",
+  "_type": "sands:ParcellationTerminology",
   "required": [
     "hasEntity"
   ],
@@ -19,7 +19,7 @@
       "uniqueItems": true,
       "_instruction": "Add all parcellation entities which belong to this parcellation terminology.",
       "_linkedTypes": [
-        "SANDS:ParcellationEntity"
+        "sands:ParcellationEntity"
       ]
     },    
     "ontologyIdentifier": {

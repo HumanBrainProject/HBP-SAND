@@ -1,5 +1,5 @@
 {
-  "_type": "SANDS:BrainAtlas",
+  "_type": "sands:BrainAtlas",
   "_extends": "/core/schemas/products/researchProduct.schema.tpl.json",
   "required": [
     "author",
@@ -30,7 +30,7 @@
     "hasTerminology": {
       "_instruction": "Enter the parcellation terminology of this brain atlas.",
       "_embeddedTypes": [
-        "SANDS:ParcellationTerminology"
+        "sands:ParcellationTerminology"
       ]
     },
     "hasVersion": {
@@ -39,7 +39,7 @@
       "uniqueItems": true,
       "_instruction": "Add versions of this brain atlas.",
       "_linkedTypes": [
-        "SANDS:BrainAtlasVersion"
+        "sands:BrainAtlasVersion"
       ]
     },
     "ontologyIdentifier": {

@@ -1,5 +1,5 @@
 {
-  "_type": "SANDS:CommonCoordinateSpaceVersion",
+  "_type": "sands:CommonCoordinateSpaceVersion",
   "_extends": "/core/schemas/products/researchProductVersion.schema.tpl.json",
   "_categories": [
     "coordinateSpace"
@@ -62,13 +62,13 @@
       "uniqueItems": true,
       "_instruction": "Add all common coordinate space versions that can be used alternatively to this common coordinate space version.",
       "_linkedTypes": [
-        "SANDS:CommonCoordinateSpaceVersion"
+        "sands:CommonCoordinateSpaceVersion"
       ]
     },
     "isNewVersionOf": {
       "_instruction": "Add the common coordinate space version preceding this common coordinate space version.",
       "_linkedTypes": [
-        "SANDS:CommonCoordinateSpaceVersion"
+        "sands:CommonCoordinateSpaceVersion"
       ]
     },
     "license": {

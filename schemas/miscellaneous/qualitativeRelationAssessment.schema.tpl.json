@@ -1,5 +1,5 @@
 {
-  "_type": "SANDS:QualitativeRelationAssessment",
+  "_type": "sands:QualitativeRelationAssessment",
   "required": [
     "inRelationTo",
     "qualitativeOverlap"
@@ -14,9 +14,9 @@
     "inRelationTo": {
       "_instruction": "Add the anatomical entity to which the relation is described.",
       "_linkedTypes": [
-        "SANDS:CustomAnatomicalEntity",
-        "SANDS:ParcellationEntity",
-        "SANDS:ParcellationEntityVersion"
+        "sands:CustomAnatomicalEntity",
+        "sands:ParcellationEntity",
+        "sands:ParcellationEntityVersion"
       ]
     },    
     "qualitativeOverlap": {

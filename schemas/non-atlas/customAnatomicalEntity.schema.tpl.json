@@ -1,5 +1,5 @@
 {
-  "_type": "SANDS:CustomAnatomicalEntity",
+  "_type": "sands:CustomAnatomicalEntity",
   "_categories": [
     "anatomicalLocation",
     "studyTarget"
@@ -14,7 +14,7 @@
       "uniqueItems": true,
       "_instruction": "Add all custom annotations which define this custom anatomical entity.",
       "_embeddedTypes": [
-        "SANDS:CustomAnnotation"
+        "sands:CustomAnnotation"
       ]
     },
     "name": {
@@ -34,8 +34,8 @@
       "uniqueItems": true,
       "_instruction": "Add all relations (qualitative or quantitative) of this custom anatomical entity to other anatomical entities.",
       "_embeddedTypes": [
-        "SANDS:QualitativeRelationAssessment",
-        "SANDS:QuantitativeRelationAssessment"
+        "sands:QualitativeRelationAssessment",
+        "sands:QuantitativeRelationAssessment"
       ]
     }
   }

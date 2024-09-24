@@ -1,5 +1,5 @@
 {
-  "_type": "SANDS:BrainAtlasVersion",
+  "_type": "sands:BrainAtlasVersion",
   "_extends": "/core/schemas/products/researchProductVersion.schema.tpl.json",
   "required": [
     "coordinateSpace",
@@ -23,7 +23,7 @@
     "coordinateSpace": {
       "_instruction": "Add the specific common coordinate space in which this brain atlas version exists.",
       "_linkedTypes": [
-        "SANDS:CommonCoordinateSpaceVersion"
+        "sands:CommonCoordinateSpaceVersion"
       ]
     },
     "digitalIdentifier": {
@@ -37,7 +37,7 @@
     "hasTerminology": {
       "_instruction": "Enter the specific parcellation terminology of this brain atlas version.",
       "_embeddedTypes": [
-        "SANDS:ParcellationTerminologyVersion"
+        "sands:ParcellationTerminologyVersion"
       ]
     },
     "isAlternativeVersionOf": {
@@ -46,13 +46,13 @@
       "uniqueItems": true,
       "_instruction": "Add all brain atlas versions that can be used alternatively to this brain atlas version.",
       "_linkedTypes": [
-        "SANDS:BrainAtlasVersion"
+        "sands:BrainAtlasVersion"
       ]
     },
     "isNewVersionOf": {
       "_instruction": "Add the brain atlas version preceding this brain atlas version.",
       "_linkedTypes": [
-        "SANDS:BrainAtlasVersion"
+        "sands:BrainAtlasVersion"
       ]
     },    
     "license": {

@@ -1,5 +1,5 @@
 {
-  "_type": "SANDS:QuantitativeRelationAssessment",
+  "_type": "sands:QuantitativeRelationAssessment",
   "required": [
     "inRelationTo",
     "quantitativeOverlap"
@@ -14,7 +14,7 @@
     "inRelationTo": {
       "_instruction": "Add the parcellation entity version to which the relation is described.",
       "_linkedTypes": [
-        "SANDS:ParcellationEntityVersion"
+        "sands:ParcellationEntityVersion"
       ]
     },    
     "quantitativeOverlap": {

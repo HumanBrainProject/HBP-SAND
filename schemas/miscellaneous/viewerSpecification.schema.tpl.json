@@ -1,5 +1,5 @@
 {
-  "_type": "SANDS:ViewerSpecification",
+  "_type": "sands:ViewerSpecification",
   "required": [
     "anchorPoint"
   ],
@@ -20,7 +20,7 @@
     "cameraPosition": {
       "_instruction": "Enter the camera position that a viewer should use.",
       "_embeddedTypes": [
-        "SANDS:CoordinatePoint"
+        "sands:CoordinatePoint"
       ]
     },
     "preferredDisplayColor": {  

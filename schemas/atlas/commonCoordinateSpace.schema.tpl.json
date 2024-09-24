@@ -1,5 +1,5 @@
 {
-  "_type": "SANDS:CommonCoordinateSpace",
+  "_type": "sands:CommonCoordinateSpace",
   "_extends": "/core/schemas/products/researchProduct.schema.tpl.json",
   "_categories": [
     "coordinateSpace"
@@ -35,7 +35,7 @@
       "uniqueItems": true,
       "_instruction": "Add all versions of this common coordinate space.",
       "_linkedTypes": [
-        "SANDS:CommonCoordinateSpaceVersion"
+        "sands:CommonCoordinateSpaceVersion"
       ]
     },
     "ontologyIdentifier": {

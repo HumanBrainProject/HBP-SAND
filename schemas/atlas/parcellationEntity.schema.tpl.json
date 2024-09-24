@@ -1,5 +1,5 @@
 {
-  "_type": "SANDS:ParcellationEntity",
+  "_type": "sands:ParcellationEntity",
   "_categories": [
     "anatomicalLocation",
     "studyTarget"
@@ -31,7 +31,7 @@
       "uniqueItems": true,
       "_instruction": "Add all anatomical parent structures for this parcellation entity as defined within the corresponding brain atlas.",
       "_linkedTypes": [
-        "SANDS:ParcellationEntity"
+        "sands:ParcellationEntity"
       ]
     },
     "hasVersion": {
@@ -40,7 +40,7 @@
       "uniqueItems": true,
       "_instruction": "Add all versions of this parcellation entity.",
       "_linkedTypes": [
-        "SANDS:ParcellationEntityVersion"
+        "sands:ParcellationEntityVersion"
       ]
     },
     "lookupLabel": {
