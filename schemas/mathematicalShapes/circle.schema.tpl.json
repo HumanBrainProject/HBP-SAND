@@ -1,0 +1,17 @@
+{
+  "_type": "SANDS:Circle",
+  "_categories": [
+    "mathematicalShapes"
+  ],
+  "required": [
+    "radius"
+  ],
+  "properties": {
+    "radius": {
+      "_instruction": "Enter the radius of this circle.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    }
+  }
+}

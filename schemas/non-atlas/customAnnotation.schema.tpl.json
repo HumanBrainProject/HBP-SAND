@@ -1,0 +1,23 @@
+{
+  "_type": "SANDS:CustomAnnotation",
+  "_extends": "atlas/annotation.schema.tpl.json",
+  "required": [
+    "coordinateSpace"
+  ],
+  "properties": {
+    "coordinateSpace": {
+      "_instruction": "Add the coordinate space for this custom annotation.",
+      "_linkedTypes": [
+        "SANDS:CommonCoordinateSpaceVersion",
+        "SANDS:CustomCoordinateSpace"
+      ]
+    },
+    "specification": {
+      "_instruction": "Add the non-parametric or parametric specification of this annotation.",
+      "_linkedTypes": [
+        "core:File",
+        "core:PropertyValueList"
+      ]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "_type": "SANDS:QualitativeRelationAssessment",
+  "required": [
+    "inRelationTo",
+    "qualitativeOverlap"
+  ],
+  "properties": {
+    "criteria": {
+      "_instruction": "Add the protocol execution defining the criteria that were applied to determine this relation.",
+      "_linkedTypes": [
+        "core:ProtocolExecution"
+      ]
+    },
+    "inRelationTo": {
+      "_instruction": "Add the anatomical entity to which the relation is described.",
+      "_linkedTypes": [
+        "SANDS:CustomAnatomicalEntity",
+        "SANDS:ParcellationEntity",
+        "SANDS:ParcellationEntityVersion"
+      ]
+    },    
+    "qualitativeOverlap": {
+      "_instruction": "Add the qualitative overlap that best describes the relation between the two anatomical entities.",
+      "_linkedTypes": [
+        "controlledTerms:QualitativeOverlap"
+      ]
+    }
+  }
+}

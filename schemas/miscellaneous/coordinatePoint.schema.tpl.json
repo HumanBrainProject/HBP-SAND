@@ -1,0 +1,25 @@
+{
+  "_type": "SANDS:CoordinatePoint",
+  "required": [
+    "coordinates",
+    "coordinateSpace"
+  ],
+  "properties": {
+    "coordinates": {
+      "type": "array",      
+      "minItems": 2,
+      "maxItems": 3,
+      "_instruction": "Enter the coordinates of this point within the stated coordinate space for two-dimensonal spaces as [x, y] or for three-dimensional space as [x, y, z].",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    },
+    "coordinateSpace": {
+      "_instruction": "Add the coordinate space in which this coordinate point exists in.",
+      "_linkedTypes": [
+        "SANDS:CommonCoordinateSpaceVersion",
+        "SANDS:CustomCoordinateSpace"
+      ]
+    }
+  }
+}
